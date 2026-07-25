@@ -11,7 +11,7 @@ vowels=0
 consonant=0
 for i in x:
         if i in "aeiouAEIOU":
-        vowels=vowels+1
+            vowels=vowels+1
 else:
     consonant=consonant+1
     print("The vowels are:",vowels)
