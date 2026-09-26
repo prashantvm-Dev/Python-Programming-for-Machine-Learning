@@ -1,0 +1,10 @@
+import numpy as np
+m=np.array([[2,4,6],[3,5,7]])
+print("Shape:",m.shape)
+print("Size:",m.size)
+print("Dimension:",m.ndim)
+print("Data type:",m.dtype)
+print("Sum:",np.sum(m))
+print("Maximum:",np.max(m))
+print("Minimum:",np.min(m))
+print("Mean:",np.mean(m))
